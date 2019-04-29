@@ -1,0 +1,30 @@
+.App{
+  width: 400px;height: 250px;
+}
+.title{
+  color:white;font-weight: bolder;justify-self: end;margin: 20px;font-size: 20pt;
+}
+.service-logo{
+  width: 80px;justify-self: flex-end;align-self: flex-end;margin-right:10px;
+}
+.container{
+  height: 100%;width: 100%;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfx8Fu1LuFS2iDTgNPwRPjZW4bxKKZqPXiR_lHmP3v56gGs8zv);
+  background-size: 100% 100%;display: grid;border-radius: 10px;
+}
+.chip{
+  width: 70px;height:60px ;border-radius: 13px;margin-left: 30px;margin-top: -30px;
+}
+
+.logo-and-data{display: flex;justify-content: space-between;border-radius: 10px;}
+.logo{display: grid;}
+.data{margin-left: 30px;}
+
+.serial-number{
+  color: rgb(253, 216, 2); font-size: 20pt;margin-left:30px;
+  width: fit-content;height: fit-content;background-color: rgba(170, 146, 7, 0.288);margin: 0px;}
+.pin-and-date{display: flex;margin: 0px;height: fit-content;justify-content: space-between;align-items: flex-end;}
+.pin{margin: 0px;color:white;font-weight: bolder;font-size: 15pt;}
+.date{height: fit-content;margin: 0px;display: flex;align-items: flex-end;}
+.date img{align-self: center;}
+.limit{display: flex;height: 100%;}
+.cardholder{margin: 0px;color:white;font-weight: bolder;}
